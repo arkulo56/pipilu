@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HMZ-ff-BJP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gOe-i3-o2b">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--“过来人”装修-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="pipilu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="root" id="vXZ-lx-hvc" customClass="ViewController" customModule="pipilu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="daM-ZG-wNy"/>
                         <viewControllerLayoutGuide type="bottom" id="S9u-P1-jtt"/>
@@ -22,6 +22,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4C-gl-nRk">
                                 <rect key="frame" x="115" y="239" width="90" height="90"/>
                                 <state key="normal" title="Button" image="icon1.png"/>
+                                <connections>
+                                    <segue destination="8sP-wm-zsI" kind="push" id="f2R-jC-gnE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Js-zI-loR">
                                 <rect key="frame" x="156" y="168" width="90" height="90"/>
@@ -30,9 +33,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6d-To-RQh">
                                 <rect key="frame" x="156" y="310" width="90" height="90"/>
                                 <state key="normal" title="Button" image="icon3.png"/>
-                                <connections>
-                                    <segue destination="8sP-wm-zsI" kind="push" id="gdG-7U-ALy"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJj-aB-BHf">
                                 <rect key="frame" x="31" y="239" width="90" height="90"/>
@@ -88,7 +88,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="m0U-jJ-h4H">
-                                <rect key="frame" x="141" y="461" width="39" height="37"/>
+                                <rect key="frame" x="125" y="461" width="70" height="37"/>
                                 <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="1" green="0.7004303073" blue="0.2411871199" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -104,21 +104,33 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkl-31-NN7">
+                                <rect key="frame" x="120" y="411" width="81" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="开始使用">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="jumpRoot:" destination="XII-Oy-5fF" eventType="touchUpInside" id="ugn-TL-tce"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nI1-K2-Kk7"/>
                     <connections>
+                        <outlet property="enter" destination="Jkl-31-NN7" id="p19-q5-vXR"/>
                         <outlet property="showImg" destination="GKk-Hk-jQ2" id="hBi-hE-gHk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WKq-X1-Z43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1863" y="153"/>
+            <point key="canvasLocation" x="2395" y="153"/>
         </scene>
         <!--登录-->
         <scene sceneID="GVk-Vu-a0d">
             <objects>
-                <viewController id="8sP-wm-zsI" customClass="loginViewController" customModule="pipilu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="8sP-wm-zsI" customClass="loginViewController" customModule="pipilu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DDx-1Y-HYm"/>
                         <viewControllerLayoutGuide type="bottom" id="wxi-0d-six"/>
@@ -153,6 +165,9 @@
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginAction:" destination="8sP-wm-zsI" eventType="touchUpInside" id="vbe-8R-35d"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="临时图片.png" translatesAutoresizingMaskIntoConstraints="NO" id="VhX-4I-5mr">
                                 <rect key="frame" x="35" y="91" width="250" height="156"/>
@@ -161,10 +176,14 @@
                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="登录" id="3z8-0T-1Yo"/>
+                    <connections>
+                        <outlet property="userName" destination="Wa0-bT-rKu" id="JWh-Gm-bI3"/>
+                        <outlet property="userPassword" destination="swG-xM-bwz" id="3aq-yr-XF1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1IC-XZ-Uc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2393" y="153"/>
+            <point key="canvasLocation" x="2925" y="153"/>
         </scene>
         <!--蓝景丽家装饰-->
         <scene sceneID="dSZ-ip-gD1">
@@ -489,6 +508,24 @@ CiAgICA
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FMk-4S-pb3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1863" y="-528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bxc-kY-6Ed">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gOe-i3-o2b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n0y-as-jef">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XII-Oy-5fF" kind="relationship" relationship="rootViewController" id="ALl-LB-DKj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rtm-GS-UoX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1863" y="153"/>
         </scene>
     </scenes>
     <resources>

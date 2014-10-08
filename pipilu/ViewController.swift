@@ -13,7 +13,7 @@ class ViewController: UIViewController,UITabBarDelegate {
 
     @IBOutlet weak var meItem: UITabBarItem!
     
-    
+
     
 
     override func viewDidLoad() {
@@ -23,9 +23,15 @@ class ViewController: UIViewController,UITabBarDelegate {
     }
     
     func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem!) {
-        println(item.tag)
+        if item.tag==2{
         var nextView = loginViewController()
-        self.presentViewController(nextView, animated: true, completion: nil)
+        //self.presentViewController(nextView, animated: true, completion: nil)
+        //self.navigationController?.pushViewController(nextView, animated: false)
+        let myStoryBoard = self.storyboard
+        let loginView:UIViewController = myStoryBoard?.instantiateViewControllerWithIdentifier("login") as UIViewController
+        //self.presentViewController(loginView, animated: true, completion: nil)
+        self.navigationController?.pushViewController(loginView, animated: true)
+        }
     }
 
     override func didReceiveMemoryWarning() {

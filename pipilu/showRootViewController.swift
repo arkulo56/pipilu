@@ -1,31 +1,15 @@
 //
-//  showViewController.swift
+//  showRootViewController.swift
 //  pipilu
 //
-//  Created by 赵勇 on 14-10-7.
+//  Created by 赵勇 on 14-10-8.
 //  Copyright (c) 2014年 赵勇. All rights reserved.
 //
 
 import UIKit
 
-class showViewController: UIViewController {
-    @IBOutlet weak var showImg: UIButton!
-    //跳转至首页
-    @IBOutlet weak var enter: UIButton!
-    @IBAction func changeContent(sender: UIPageControl) {
-        var a = sender.currentPage + 1
-        showImg.setTitle("\(a)", forState: .Normal)
-        if a==3
-        {
-            enter.hidden=false
-        }
-    }
-    //跳转事件
-    @IBAction func jumpRoot(sender: UIButton) {
-        let myStoryboard = self.storyboard
-        let target:UIViewController = myStoryboard?.instantiateViewControllerWithIdentifier("root") as UIViewController
-        self.navigationController?.pushViewController(target, animated: true)
-    }
+class showRootViewController: UINavigationController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
