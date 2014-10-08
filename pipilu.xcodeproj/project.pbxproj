@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC785E5919D26D7E00E34F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC785E5819D26D7E00E34F3B /* AppDelegate.swift */; };
+		AC785E5B19D26D7E00E34F3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC785E5A19D26D7E00E34F3B /* ViewController.swift */; };
+		AC785E5E19D26D7E00E34F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC785E5C19D26D7E00E34F3B /* Main.storyboard */; };
+		AC785E6019D26D7E00E34F3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC785E5F19D26D7E00E34F3B /* Images.xcassets */; };
+		AC785E6319D26D7E00E34F3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC785E6119D26D7E00E34F3B /* LaunchScreen.xib */; };
+		AC785E6F19D26D7E00E34F3B /* pipiluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC785E6E19D26D7E00E34F3B /* pipiluTests.swift */; };
+		AC785E9B19D2B3DE00E34F3B /* detailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC785E9A19D2B3DE00E34F3B /* detailContent.swift */; };
+		AC785F6119E2E3E200E34F3B /* dataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC785F6019E2E3E200E34F3B /* dataItem.swift */; };
+		ACA75A3419E42CFB00E8FC3E /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A3319E42CFB00E8FC3E /* loginViewController.swift */; };
+		ACA75A3619E431D500E8FC3E /* showViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A3519E431D500E8FC3E /* showViewController.swift */; };
+		ACA75A3A19E52A3100E8FC3E /* 包工头.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A3719E52A3100E8FC3E /* 包工头.jpg */; };
+		ACA75A3B19E52A3100E8FC3E /* 临时图片.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A3819E52A3100E8FC3E /* 临时图片.png */; };
+		ACA75A3C19E52A3100E8FC3E /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A3919E52A3100E8FC3E /* head.jpg */; };
+		ACA75A4419E52A7E00E8FC3E /* icon_7.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A3D19E52A7E00E8FC3E /* icon_7.png */; };
+		ACA75A4519E52A7E00E8FC3E /* icon_8.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A3E19E52A7E00E8FC3E /* icon_8.png */; };
+		ACA75A4619E52A7E00E8FC3E /* icon_9.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A3F19E52A7E00E8FC3E /* icon_9.png */; };
+		ACA75A4719E52A7E00E8FC3E /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A4019E52A7E00E8FC3E /* icon1.png */; };
+		ACA75A4819E52A7E00E8FC3E /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A4119E52A7E00E8FC3E /* icon2.png */; };
+		ACA75A4919E52A7E00E8FC3E /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A4219E52A7E00E8FC3E /* icon3.png */; };
+		ACA75A4A19E52A7E00E8FC3E /* ios_shouye_beijing640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A4319E52A7E00E8FC3E /* ios_shouye_beijing640x1136.jpg */; };
+		ACA75A4C19E52A9000E8FC3E /* touxiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A4B19E52A9000E8FC3E /* touxiang.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC785E6919D26D7E00E34F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC785E4B19D26D7E00E34F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC785E5219D26D7E00E34F3B;
+			remoteInfo = pipilu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC785E5319D26D7E00E34F3B /* pipilu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipilu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC785E5719D26D7E00E34F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC785E5819D26D7E00E34F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC785E5A19D26D7E00E34F3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC785E5D19D26D7E00E34F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC785E5F19D26D7E00E34F3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC785E6219D26D7E00E34F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC785E6819D26D7E00E34F3B /* pipiluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pipiluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC785E6D19D26D7E00E34F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC785E6E19D26D7E00E34F3B /* pipiluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pipiluTests.swift; sourceTree = "<group>"; };
+		AC785E9A19D2B3DE00E34F3B /* detailContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailContent.swift; sourceTree = "<group>"; };
+		AC785F6019E2E3E200E34F3B /* dataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataItem.swift; sourceTree = "<group>"; };
+		ACA75A3319E42CFB00E8FC3E /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		ACA75A3519E431D500E8FC3E /* showViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showViewController.swift; sourceTree = "<group>"; };
+		ACA75A3719E52A3100E8FC3E /* 包工头.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "包工头.jpg"; path = "../../../../Downloads/熊猫/包工头.jpg"; sourceTree = "<group>"; };
+		ACA75A3819E52A3100E8FC3E /* 临时图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "临时图片.png"; path = "../../../../Downloads/熊猫/临时图片.png"; sourceTree = "<group>"; };
+		ACA75A3919E52A3100E8FC3E /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = head.jpg; path = "../../../../Downloads/熊猫/head.jpg"; sourceTree = "<group>"; };
+		ACA75A3D19E52A7E00E8FC3E /* icon_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_7.png; path = "../../../../Downloads/ios首页/icon_7.png"; sourceTree = "<group>"; };
+		ACA75A3E19E52A7E00E8FC3E /* icon_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_8.png; path = "../../../../Downloads/ios首页/icon_8.png"; sourceTree = "<group>"; };
+		ACA75A3F19E52A7E00E8FC3E /* icon_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_9.png; path = "../../../../Downloads/ios首页/icon_9.png"; sourceTree = "<group>"; };
+		ACA75A4019E52A7E00E8FC3E /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1.png; path = "../../../../Downloads/ios首页/icon1.png"; sourceTree = "<group>"; };
+		ACA75A4119E52A7E00E8FC3E /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = "../../../../Downloads/ios首页/icon2.png"; sourceTree = "<group>"; };
+		ACA75A4219E52A7E00E8FC3E /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon3.png; path = "../../../../Downloads/ios首页/icon3.png"; sourceTree = "<group>"; };
+		ACA75A4319E52A7E00E8FC3E /* ios_shouye_beijing640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ios_shouye_beijing640x1136.jpg; path = "../../../../Downloads/ios首页/ios_shouye_beijing640x1136.jpg"; sourceTree = "<group>"; };
+		ACA75A4B19E52A9000E8FC3E /* touxiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = touxiang.jpg; path = "../../../../Downloads/9月26日APP素材/touxiang.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC785E5019D26D7E00E34F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC785E6519D26D7E00E34F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC785E4A19D26D7E00E34F3B = {
+			isa = PBXGroup;
+			children = (
+				AC785E5519D26D7E00E34F3B /* pipilu */,
+				AC785E6B19D26D7E00E34F3B /* pipiluTests */,
+				AC785E5419D26D7E00E34F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC785E5419D26D7E00E34F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC785E5319D26D7E00E34F3B /* pipilu.app */,
+				AC785E6819D26D7E00E34F3B /* pipiluTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC785E5519D26D7E00E34F3B /* pipilu */ = {
+			isa = PBXGroup;
+			children = (
+				AC785E5819D26D7E00E34F3B /* AppDelegate.swift */,
+				ACA75A3519E431D500E8FC3E /* showViewController.swift */,
+				ACA75A3319E42CFB00E8FC3E /* loginViewController.swift */,
+				AC785F6019E2E3E200E34F3B /* dataItem.swift */,
+				AC785E9A19D2B3DE00E34F3B /* detailContent.swift */,
+				AC785E5A19D26D7E00E34F3B /* ViewController.swift */,
+				AC785E5C19D26D7E00E34F3B /* Main.storyboard */,
+				AC785E5F19D26D7E00E34F3B /* Images.xcassets */,
+				AC785E6119D26D7E00E34F3B /* LaunchScreen.xib */,
+				ACA75A3719E52A3100E8FC3E /* 包工头.jpg */,
+				ACA75A3819E52A3100E8FC3E /* 临时图片.png */,
+				ACA75A3919E52A3100E8FC3E /* head.jpg */,
+				ACA75A3D19E52A7E00E8FC3E /* icon_7.png */,
+				ACA75A3E19E52A7E00E8FC3E /* icon_8.png */,
+				ACA75A3F19E52A7E00E8FC3E /* icon_9.png */,
+				ACA75A4019E52A7E00E8FC3E /* icon1.png */,
+				ACA75A4119E52A7E00E8FC3E /* icon2.png */,
+				ACA75A4219E52A7E00E8FC3E /* icon3.png */,
+				ACA75A4319E52A7E00E8FC3E /* ios_shouye_beijing640x1136.jpg */,
+				ACA75A4B19E52A9000E8FC3E /* touxiang.jpg */,
+				AC785E5619D26D7E00E34F3B /* Supporting Files */,
+			);
+			path = pipilu;
+			sourceTree = "<group>";
+		};
+		AC785E5619D26D7E00E34F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC785E5719D26D7E00E34F3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC785E6B19D26D7E00E34F3B /* pipiluTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC785E6E19D26D7E00E34F3B /* pipiluTests.swift */,
+				AC785E6C19D26D7E00E34F3B /* Supporting Files */,
+			);
+			path = pipiluTests;
+			sourceTree = "<group>";
+		};
+		AC785E6C19D26D7E00E34F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC785E6D19D26D7E00E34F3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC785E5219D26D7E00E34F3B /* pipilu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC785E7219D26D7E00E34F3B /* Build configuration list for PBXNativeTarget "pipilu" */;
+			buildPhases = (
+				AC785E4F19D26D7E00E34F3B /* Sources */,
+				AC785E5019D26D7E00E34F3B /* Frameworks */,
+				AC785E5119D26D7E00E34F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pipilu;
+			productName = pipilu;
+			productReference = AC785E5319D26D7E00E34F3B /* pipilu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC785E6719D26D7E00E34F3B /* pipiluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC785E7519D26D7E00E34F3B /* Build configuration list for PBXNativeTarget "pipiluTests" */;
+			buildPhases = (
+				AC785E6419D26D7E00E34F3B /* Sources */,
+				AC785E6519D26D7E00E34F3B /* Frameworks */,
+				AC785E6619D26D7E00E34F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC785E6A19D26D7E00E34F3B /* PBXTargetDependency */,
+			);
+			name = pipiluTests;
+			productName = pipiluTests;
+			productReference = AC785E6819D26D7E00E34F3B /* pipiluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC785E4B19D26D7E00E34F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "赵勇";
+				TargetAttributes = {
+					AC785E5219D26D7E00E34F3B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AC785E6719D26D7E00E34F3B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AC785E5219D26D7E00E34F3B;
+					};
+				};
+			};
+			buildConfigurationList = AC785E4E19D26D7E00E34F3B /* Build configuration list for PBXProject "pipilu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC785E4A19D26D7E00E34F3B;
+			productRefGroup = AC785E5419D26D7E00E34F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC785E5219D26D7E00E34F3B /* pipilu */,
+				AC785E6719D26D7E00E34F3B /* pipiluTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC785E5119D26D7E00E34F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA75A3A19E52A3100E8FC3E /* 包工头.jpg in Resources */,
+				ACA75A3C19E52A3100E8FC3E /* head.jpg in Resources */,
+				AC785E5E19D26D7E00E34F3B /* Main.storyboard in Resources */,
+				ACA75A4519E52A7E00E8FC3E /* icon_8.png in Resources */,
+				ACA75A4A19E52A7E00E8FC3E /* ios_shouye_beijing640x1136.jpg in Resources */,
+				ACA75A4619E52A7E00E8FC3E /* icon_9.png in Resources */,
+				ACA75A4419E52A7E00E8FC3E /* icon_7.png in Resources */,
+				AC785E6319D26D7E00E34F3B /* LaunchScreen.xib in Resources */,
+				ACA75A4C19E52A9000E8FC3E /* touxiang.jpg in Resources */,
+				ACA75A4719E52A7E00E8FC3E /* icon1.png in Resources */,
+				ACA75A4919E52A7E00E8FC3E /* icon3.png in Resources */,
+				AC785E6019D26D7E00E34F3B /* Images.xcassets in Resources */,
+				ACA75A3B19E52A3100E8FC3E /* 临时图片.png in Resources */,
+				ACA75A4819E52A7E00E8FC3E /* icon2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC785E6619D26D7E00E34F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC785E4F19D26D7E00E34F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC785E5B19D26D7E00E34F3B /* ViewController.swift in Sources */,
+				ACA75A3619E431D500E8FC3E /* showViewController.swift in Sources */,
+				AC785E5919D26D7E00E34F3B /* AppDelegate.swift in Sources */,
+				AC785F6119E2E3E200E34F3B /* dataItem.swift in Sources */,
+				AC785E9B19D2B3DE00E34F3B /* detailContent.swift in Sources */,
+				ACA75A3419E42CFB00E8FC3E /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC785E6419D26D7E00E34F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC785E6F19D26D7E00E34F3B /* pipiluTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC785E6A19D26D7E00E34F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC785E5219D26D7E00E34F3B /* pipilu */;
+			targetProxy = AC785E6919D26D7E00E34F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC785E5C19D26D7E00E34F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC785E5D19D26D7E00E34F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC785E6119D26D7E00E34F3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC785E6219D26D7E00E34F3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC785E7019D26D7E00E34F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC785E7119D26D7E00E34F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC785E7319D26D7E00E34F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pipilu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC785E7419D26D7E00E34F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pipilu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC785E7619D26D7E00E34F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pipiluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pipilu.app/pipilu";
+			};
+			name = Debug;
+		};
+		AC785E7719D26D7E00E34F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pipiluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pipilu.app/pipilu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC785E4E19D26D7E00E34F3B /* Build configuration list for PBXProject "pipilu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC785E7019D26D7E00E34F3B /* Debug */,
+				AC785E7119D26D7E00E34F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC785E7219D26D7E00E34F3B /* Build configuration list for PBXNativeTarget "pipilu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC785E7319D26D7E00E34F3B /* Debug */,
+				AC785E7419D26D7E00E34F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC785E7519D26D7E00E34F3B /* Build configuration list for PBXNativeTarget "pipiluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC785E7619D26D7E00E34F3B /* Debug */,
+				AC785E7719D26D7E00E34F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC785E4B19D26D7E00E34F3B /* Project object */;
+}
