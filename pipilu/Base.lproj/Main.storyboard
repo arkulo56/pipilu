@@ -23,7 +23,7 @@
                                 <rect key="frame" x="115" y="239" width="90" height="90"/>
                                 <state key="normal" title="Button" image="icon1.png"/>
                                 <connections>
-                                    <segue destination="8sP-wm-zsI" kind="push" id="f2R-jC-gnE"/>
+                                    <segue destination="xb1-kh-Z7L" kind="push" id="Ehr-ge-r9K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Js-zI-loR">
@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WKq-X1-Z43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2395" y="153"/>
+            <point key="canvasLocation" x="1415" y="-529"/>
         </scene>
         <!--登录-->
         <scene sceneID="GVk-Vu-a0d">
@@ -183,7 +183,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1IC-XZ-Uc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2925" y="153"/>
+            <point key="canvasLocation" x="2139" y="-1261"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9se-1t-z9c">
+            <objects>
+                <viewController id="xb1-kh-Z7L" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i7l-mB-gO1"/>
+                        <viewControllerLayoutGuide type="bottom" id="qqN-Wu-CcB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OxY-ro-yEx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZxP-Id-Csj">
+                                <rect key="frame" x="0.0" y="129" width="320" height="50"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pS7-Qb-aGV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IND-eT-ZPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2629" y="-1261"/>
         </scene>
         <!--蓝景丽家装饰-->
         <scene sceneID="dSZ-ip-gD1">
@@ -525,7 +550,7 @@ CiAgICA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rtm-GS-UoX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1863" y="153"/>
+            <point key="canvasLocation" x="883" y="-529"/>
         </scene>
     </scenes>
     <resources>

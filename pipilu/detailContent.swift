@@ -145,6 +145,7 @@ class detailContent: UIViewController,UITableViewDataSource,UITableViewDelegate{
         cell.textLabel?.text=self.items[row].name
         cell.imageView?.image = UIImage(named:self.items[row].image)
         cell.detailTextLabel?.text = self.items[row].subtitle
+        //cell.tag = 这里可以记录用户的记录的主健，可以实现列表跳转到详细页的id传递
         return cell;
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
