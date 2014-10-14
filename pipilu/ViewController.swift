@@ -21,7 +21,7 @@ class ViewController: UIViewController,UITabBarDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         myTabBar.delegate = self
     }
-    
+    //如果选择的是第三个按钮，则触发该函数
     func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem!) {
         if item.tag==2{
         var nextView = loginViewController()
@@ -34,6 +34,11 @@ class ViewController: UIViewController,UITabBarDelegate {
         }
     }
 
+    @IBAction func goToFlow(sender: UIButton) {
+        let ms = self.storyboard
+        let flow:UIViewController = ms?.instantiateViewControllerWithIdentifier("flow") as UIViewController
+        self.presentViewController(flow, animated: true, completion: nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
