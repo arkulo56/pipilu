@@ -18,13 +18,25 @@ class flowdetailViewController: UIViewController,UITableViewDataSource,UITableVi
     //右侧导航实现
     var menuSign = 0
     @IBAction func menuAction(sender: UIBarButtonItem) {
+        if(self.menuSign==0)//打开
+        {
+            self.menuOC(0)
+            self.menuSign=1
+        }else//关闭
+        {
+            self.menuOC(1)
+            self.menuSign=0
+        }
+    }
+    //导航菜单打开关闭事件
+    func menuOC(type:Int)
+    {
         var c = self.view0.frame
-        if(self.menuSign==0)
+        if(type==0)
         {
             c.origin.x = -230
             UIView.animateWithDuration(0.7,delay:0,usingSpringWithDamping:0.5,initialSpringVelocity:1.0,options:UIViewAnimationOptions.AllowUserInteraction,animations:{
                 self.view0.frame = c ;
-                self.menuSign = 1
                 },completion: { (finished: Bool) -> Void in
                     
             })
@@ -33,7 +45,6 @@ class flowdetailViewController: UIViewController,UITableViewDataSource,UITableVi
             c.origin.x = 0
             UIView.animateWithDuration(0.7,delay:0,usingSpringWithDamping:0.5,initialSpringVelocity:1.0,options:UIViewAnimationOptions.AllowUserInteraction,animations:{
                 self.view0.frame = c ;
-                self.menuSign = 0
                 },completion: { (finished: Bool) -> Void in
                     
             })
@@ -67,17 +78,23 @@ class flowdetailViewController: UIViewController,UITableViewDataSource,UITableVi
     //侧边导航数据表格
     @IBOutlet weak var newTableView: UITableView!
     var stageDict = ["前期","开工准备","开工","水电","泥瓦","木工","油漆","安装"]
+    var imgDict = ["qianqi","kaigongzhunbei","kaigong","shuidian","niwa","mugong","youqi","anzhuang"]
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return self.stageDict.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("hang", forIndexPath: indexPath) as UITableViewCell
         var row = indexPath.row as Int
-        println(self.stageDict[row])
+        //println(self.stageDict[row])
         cell.textLabel?.text = self.stageDict[row]
-        cell.imageView?.image = UIImage(named: "fdf.png")
+        cell.imageView?.image = UIImage(named: self.imgDict[row])
         
         return cell
+    }
+    //导航菜单点击事件
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.menuOC(1)
+        self.menuSign=0
     }
     override func viewDidLoad() {
         super.viewDidLoad()

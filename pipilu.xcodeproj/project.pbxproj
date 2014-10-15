@@ -30,7 +30,6 @@
 		ACA75A4C19E52A9000E8FC3E /* touxiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACA75A4B19E52A9000E8FC3E /* touxiang.jpg */; };
 		ACA75A4E19E56A8400E8FC3E /* userAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A4D19E56A8400E8FC3E /* userAmount.swift */; };
 		ACA75A5019E5789900E8FC3E /* showRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A4F19E5789900E8FC3E /* showRootViewController.swift */; };
-		ACA75A5219E809C600E8FC3E /* flowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A5119E809C600E8FC3E /* flowViewController.swift */; };
 		ACA75AB219ED1C0E00E8FC3E /* flowdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75AB119ED1C0E00E8FC3E /* flowdetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +71,6 @@
 		ACA75A4B19E52A9000E8FC3E /* touxiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = touxiang.jpg; path = "../../../../Downloads/9月26日APP素材/touxiang.jpg"; sourceTree = "<group>"; };
 		ACA75A4D19E56A8400E8FC3E /* userAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userAmount.swift; sourceTree = "<group>"; };
 		ACA75A4F19E5789900E8FC3E /* showRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showRootViewController.swift; sourceTree = "<group>"; };
-		ACA75A5119E809C600E8FC3E /* flowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flowViewController.swift; sourceTree = "<group>"; };
 		ACA75AB119ED1C0E00E8FC3E /* flowdetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flowdetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +115,6 @@
 			children = (
 				AC785E5819D26D7E00E34F3B /* AppDelegate.swift */,
 				ACA75AB119ED1C0E00E8FC3E /* flowdetailViewController.swift */,
-				ACA75A5119E809C600E8FC3E /* flowViewController.swift */,
 				ACA75A4F19E5789900E8FC3E /* showRootViewController.swift */,
 				ACA75A4D19E56A8400E8FC3E /* userAmount.swift */,
 				ACA75A3519E431D500E8FC3E /* showViewController.swift */,
@@ -284,7 +281,6 @@
 				ACA75A4E19E56A8400E8FC3E /* userAmount.swift in Sources */,
 				ACA75A3619E431D500E8FC3E /* showViewController.swift in Sources */,
 				ACA75A5019E5789900E8FC3E /* showRootViewController.swift in Sources */,
-				ACA75A5219E809C600E8FC3E /* flowViewController.swift in Sources */,
 				AC785E5919D26D7E00E34F3B /* AppDelegate.swift in Sources */,
 				AC785F6119E2E3E200E34F3B /* dataItem.swift in Sources */,
 				AC785E9B19D2B3DE00E34F3B /* detailContent.swift in Sources */,

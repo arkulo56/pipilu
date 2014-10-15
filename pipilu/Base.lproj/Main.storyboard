@@ -185,178 +185,6 @@
             </objects>
             <point key="canvasLocation" x="2139" y="-1261"/>
         </scene>
-        <!--Title-->
-        <scene sceneID="9se-1t-z9c">
-            <objects>
-                <viewController id="xb1-kh-Z7L" customClass="flowViewController" customModule="pipilu" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="i7l-mB-gO1"/>
-                        <viewControllerLayoutGuide type="bottom" id="qqN-Wu-CcB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OxY-ro-yEx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B6j-UL-f4K">
-                                <rect key="frame" x="7" y="114" width="306" height="34"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="qR0-Sl-jOp">
-                                        <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="r4T-3E-vmd">
-                                        <rect key="frame" x="34" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="2" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="U6Z-gA-gf9">
-                                        <rect key="frame" x="68" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="3" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="WBR-Xi-6pE">
-                                        <rect key="frame" x="102" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="4" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_2" translatesAutoresizingMaskIntoConstraints="NO" id="IJQ-7e-lDc">
-                                        <rect key="frame" x="136" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="5" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="JL1-u1-Haq">
-                                        <rect key="frame" x="170" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="6" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="93R-AX-9sc">
-                                        <rect key="frame" x="204" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="7" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="agA-Pn-bS1">
-                                        <rect key="frame" x="238" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="8" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_1" translatesAutoresizingMaskIntoConstraints="NO" id="6eH-wb-MTD">
-                                        <rect key="frame" x="272" y="0.0" width="34" height="34"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="40" minValue="0.0" maxValue="80" translatesAutoresizingMaskIntoConstraints="NO" id="BbG-yC-piV">
-                                <rect key="frame" x="24" y="89" width="272" height="31"/>
-                            </slider>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RVG-aK-C8K">
-                                <rect key="frame" x="16" y="175" width="288" height="310"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="biaoqian" translatesAutoresizingMaskIntoConstraints="NO" id="IQa-NU-fZY">
-                                        <rect key="frame" x="8" y="34" width="109" height="32"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="前 期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wou-Yu-erZ">
-                                        <rect key="frame" x="41" y="39" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baikuang" translatesAutoresizingMaskIntoConstraints="NO" id="s3O-vD-yPQ">
-                                        <rect key="frame" x="0.0" y="58" width="288" height="216"/>
-                                    </imageView>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="uUt-6S-uOr">
-                                        <rect key="frame" x="219" y="237" width="39" height="37"/>
-                                        <color key="pageIndicatorTintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="currentPageIndicatorTintColor" red="1" green="0.7004303073" blue="0.2411871199" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <action selector="flowViewChange:" destination="xb1-kh-Z7L" eventType="valueChanged" id="491-Rg-Qmi"/>
-                                        </connections>
-                                    </pageControl>
-                                    <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Dg-3R-Xvt">
-                                        <rect key="frame" x="15" y="74" width="258" height="175"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="Wew-cq-j4M">
-                                                <rect key="frame" x="91" y="92" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="n6B-iz-WfU">
-                                                <rect key="frame" x="91" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="SbC-ud-BbC">
-                                                <rect key="frame" x="175" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="pb0-lM-Mqs">
-                                                <rect key="frame" x="8" y="92" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="YP0-TY-7YC">
-                                                <rect key="frame" x="7" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="XJH-08-7gN">
-                                                <rect key="frame" x="175" y="92" width="76" height="76"/>
-                                            </imageView>
-                                        </subviews>
-                                    </view>
-                                    <view hidden="YES" alpha="0.5" tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gRY-UZ-WZI">
-                                        <rect key="frame" x="15" y="74" width="258" height="175"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao4" translatesAutoresizingMaskIntoConstraints="NO" id="uAK-y1-XAC">
-                                                <rect key="frame" x="91" y="92" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao4" translatesAutoresizingMaskIntoConstraints="NO" id="ZGX-DA-knc">
-                                                <rect key="frame" x="91" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao4" translatesAutoresizingMaskIntoConstraints="NO" id="09T-u6-V1P">
-                                                <rect key="frame" x="175" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao4" translatesAutoresizingMaskIntoConstraints="NO" id="aCg-7h-8km">
-                                                <rect key="frame" x="8" y="92" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao4" translatesAutoresizingMaskIntoConstraints="NO" id="Jzk-nd-QIN">
-                                                <rect key="frame" x="7" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao4" translatesAutoresizingMaskIntoConstraints="NO" id="Fuc-3k-zYP">
-                                                <rect key="frame" x="175" y="92" width="76" height="76"/>
-                                            </imageView>
-                                        </subviews>
-                                    </view>
-                                    <view hidden="YES" alpha="0.5" tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQc-W0-Hfd">
-                                        <rect key="frame" x="15" y="74" width="258" height="175"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="b3l-e4-4g4">
-                                                <rect key="frame" x="91" y="92" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="FUK-2N-Khy">
-                                                <rect key="frame" x="91" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="eqg-6q-FGj">
-                                                <rect key="frame" x="175" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="m5S-5X-AgL">
-                                                <rect key="frame" x="8" y="92" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="BPv-zu-YIL">
-                                                <rect key="frame" x="7" y="8" width="76" height="76"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="veh-YC-mHh">
-                                                <rect key="frame" x="175" y="92" width="76" height="76"/>
-                                            </imageView>
-                                        </subviews>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ic-Od-fNJ">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <items>
-                                    <tabBarItem title="消息" image="icon_7.png" id="TGy-ag-8xV"/>
-                                    <tabBarItem title="主页" image="icon_8.png" id="EHs-pU-rlB"/>
-                                    <tabBarItem title="我" image="icon_9.png" id="ZJb-q3-cKO"/>
-                                </items>
-                                <color key="barTintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Title" id="ZJY-af-zHj">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Pbl-pE-LxQ">
-                            <connections>
-                                <action selector="openFlow:" destination="xb1-kh-Z7L" id="fW9-WL-w0q"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="view0" destination="7Dg-3R-Xvt" id="9h7-N7-Qgs"/>
-                        <outlet property="view1" destination="gRY-UZ-WZI" id="nu0-UF-59t"/>
-                        <outlet property="view2" destination="OQc-W0-Hfd" id="KNc-xC-MkV"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IND-eT-ZPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3161" y="-1261"/>
-        </scene>
         <!--蓝景丽家装饰-->
         <scene sceneID="dSZ-ip-gD1">
             <objects>
@@ -681,7 +509,7 @@ CiAgICA
                                         <rect key="frame" x="90" y="45" width="230" height="523"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="hang" textLabel="6MV-vS-1np" style="IBUITableViewCellStyleDefault" id="7Ux-31-6xH">
+                                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="hang" textLabel="6MV-vS-1np" imageView="rfd-7h-t61" style="IBUITableViewCellStyleDefault" id="7Ux-31-6xH">
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Ux-31-6xH" id="oyV-vy-UuV">
                                                     <autoresizingMask key="autoresizingMask"/>
@@ -692,6 +520,9 @@ CiAgICA
                                                             <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="anzhuang" id="rfd-7h-t61">
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </imageView>
                                                     </subviews>
                                                 </tableViewCellContentView>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -925,27 +756,9 @@ CiAgICA
             </objects>
             <point key="canvasLocation" x="883" y="-529"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="HEk-AG-VJF">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XGL-X2-fzE" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="FFO-K4-ndu"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8uD-eb-4nD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="xb1-kh-Z7L" kind="relationship" relationship="rootViewController" id="Sny-RS-yFU"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oSN-NV-EQ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2629" y="-1261"/>
-        </scene>
     </scenes>
     <resources>
+        <image name="anzhuang" width="54" height="54"/>
         <image name="baikuang" width="600" height="500"/>
         <image name="biaoqian" width="119" height="45"/>
         <image name="dot_1" width="11" height="11"/>
