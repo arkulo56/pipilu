@@ -29,6 +29,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Js-zI-loR">
                                 <rect key="frame" x="156" y="168" width="90" height="90"/>
                                 <state key="normal" title="Button" image="icon3.png"/>
+                                <connections>
+                                    <segue destination="ENW-C2-wdD" kind="push" id="Nfy-SM-coM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6d-To-RQh">
                                 <rect key="frame" x="156" y="310" width="90" height="90"/>
@@ -184,6 +187,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1IC-XZ-Uc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2139" y="-1261"/>
+        </scene>
+        <!--个人主页-->
+        <scene sceneID="3Fd-n8-vMb">
+            <objects>
+                <viewController id="ENW-C2-wdD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kwU-c9-JU8"/>
+                        <viewControllerLayoutGuide type="bottom" id="pbJ-92-b15"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A2J-b1-Hre">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UuD-D4-rJU">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <items>
+                                    <tabBarItem title="消息" image="icon_7.png" id="PXn-RL-Dxv"/>
+                                    <tabBarItem title="主页" image="icon_8.png" id="jJC-TJ-fO1"/>
+                                    <tabBarItem title="我" image="icon_9.png" id="Xoo-iQ-ouD"/>
+                                </items>
+                                <color key="barTintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </tabBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_beijingtu" translatesAutoresizingMaskIntoConstraints="NO" id="RMm-wK-QY3">
+                                <rect key="frame" x="0.0" y="59" width="320" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="touxiang" translatesAutoresizingMaskIntoConstraints="NO" id="0R8-GN-cGI">
+                                <rect key="frame" x="27" y="107" width="88" height="88"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_xuanxiangkuang" translatesAutoresizingMaskIntoConstraints="NO" id="gP3-jw-VVP">
+                                <rect key="frame" x="31" y="227" width="81" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_xuanxiangkuang" translatesAutoresizingMaskIntoConstraints="NO" id="CI5-Eu-FA4">
+                                <rect key="frame" x="120" y="227" width="81" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_xuanxiangkuang" translatesAutoresizingMaskIntoConstraints="NO" id="Y09-hU-sfe">
+                                <rect key="frame" x="209" y="227" width="81" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_xuanxiangkuang" translatesAutoresizingMaskIntoConstraints="NO" id="Ajw-Uk-i6t">
+                                <rect key="frame" x="31" y="299" width="81" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_xuanxiangkuang" translatesAutoresizingMaskIntoConstraints="NO" id="VQw-NT-fjW">
+                                <rect key="frame" x="120" y="299" width="81" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wo_xuanxiangkuang" translatesAutoresizingMaskIntoConstraints="NO" id="oeQ-8n-Tmd">
+                                <rect key="frame" x="209" y="299" width="81" height="53"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="个人主页" id="veF-Lf-Pd7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gfF-8t-wVU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2605" y="-1261"/>
         </scene>
         <!--蓝景丽家装饰-->
         <scene sceneID="dSZ-ip-gD1">
@@ -605,6 +662,23 @@ CiAgICA
                                             <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tNo-Re-i2q">
                                                 <rect key="frame" x="15" y="74" width="258" height="175"/>
                                                 <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qqS-i9-xYE">
+                                                        <rect key="frame" x="8" y="4" width="80" height="80"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="Lrf-RX-dA7">
+                                                                <rect key="frame" x="0.0" y="4" width="76" height="76"/>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot_3" translatesAutoresizingMaskIntoConstraints="NO" id="rQa-N8-lGy">
+                                                                <rect key="frame" x="49" y="0.0" width="30" height="30"/>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3z8-I4-eb6">
+                                                                <rect key="frame" x="55" y="4" width="42" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </view>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="cvO-G8-J64">
                                                         <rect key="frame" x="91" y="92" width="76" height="76"/>
                                                     </imageView>
@@ -616,9 +690,6 @@ CiAgICA
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-JK-rzW">
                                                         <rect key="frame" x="8" y="92" width="76" height="76"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="Lrf-RX-dA7">
-                                                        <rect key="frame" x="7" y="8" width="76" height="76"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao3" translatesAutoresizingMaskIntoConstraints="NO" id="5jt-Eg-sqE">
                                                         <rect key="frame" x="175" y="92" width="76" height="76"/>
@@ -663,11 +734,11 @@ CiAgICA
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="mqS-7B-gYO">
                                                         <rect key="frame" x="8" y="92" width="76" height="76"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="0Q7-Qg-qvX">
-                                                        <rect key="frame" x="7" y="8" width="76" height="76"/>
-                                                    </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="EGN-Ek-eRJ">
                                                         <rect key="frame" x="175" y="92" width="76" height="76"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="0Q7-Qg-qvX">
+                                                        <rect key="frame" x="7" y="8" width="76" height="76"/>
                                                     </imageView>
                                                 </subviews>
                                             </view>
@@ -763,6 +834,7 @@ CiAgICA
         <image name="biaoqian" width="119" height="45"/>
         <image name="dot_1" width="11" height="11"/>
         <image name="dot_2" width="11" height="11"/>
+        <image name="dot_3" width="32" height="32"/>
         <image name="head.jpg" width="200" height="200"/>
         <image name="icon1.png" width="90" height="90"/>
         <image name="icon2.png" width="90" height="90"/>
@@ -771,9 +843,12 @@ CiAgICA
         <image name="icon_8.png" width="206" height="123"/>
         <image name="icon_9.png" width="206" height="123"/>
         <image name="ios_shouye_beijing640x1136.jpg" width="640" height="1136"/>
+        <image name="touxiang" width="165" height="165"/>
         <image name="tubiao" width="134" height="134"/>
         <image name="tubiao3" width="134" height="134"/>
         <image name="tubiao4" width="134" height="134"/>
+        <image name="wo_beijingtu" width="640" height="315"/>
+        <image name="wo_xuanxiangkuang" width="181" height="101"/>
         <image name="临时图片.png" width="1246" height="654"/>
         <image name="包工头.jpg" width="212" height="300"/>
     </resources>
