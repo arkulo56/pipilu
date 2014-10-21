@@ -31,6 +31,7 @@
 		ACA75A4E19E56A8400E8FC3E /* userAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A4D19E56A8400E8FC3E /* userAmount.swift */; };
 		ACA75A5019E5789900E8FC3E /* showRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75A4F19E5789900E8FC3E /* showRootViewController.swift */; };
 		ACA75AB219ED1C0E00E8FC3E /* flowdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75AB119ED1C0E00E8FC3E /* flowdetailViewController.swift */; };
+		ACA75AB419EFB3B600E8FC3E /* acountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA75AB319EFB3B600E8FC3E /* acountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		ACA75A4D19E56A8400E8FC3E /* userAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userAmount.swift; sourceTree = "<group>"; };
 		ACA75A4F19E5789900E8FC3E /* showRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showRootViewController.swift; sourceTree = "<group>"; };
 		ACA75AB119ED1C0E00E8FC3E /* flowdetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flowdetailViewController.swift; sourceTree = "<group>"; };
+		ACA75AB319EFB3B600E8FC3E /* acountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = acountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				AC785E5819D26D7E00E34F3B /* AppDelegate.swift */,
+				ACA75AB319EFB3B600E8FC3E /* acountViewController.swift */,
 				ACA75AB119ED1C0E00E8FC3E /* flowdetailViewController.swift */,
 				ACA75A4F19E5789900E8FC3E /* showRootViewController.swift */,
 				ACA75A4D19E56A8400E8FC3E /* userAmount.swift */,
@@ -285,6 +288,7 @@
 				AC785F6119E2E3E200E34F3B /* dataItem.swift in Sources */,
 				AC785E9B19D2B3DE00E34F3B /* detailContent.swift in Sources */,
 				ACA75A3419E42CFB00E8FC3E /* loginViewController.swift in Sources */,
+				ACA75AB419EFB3B600E8FC3E /* acountViewController.swift in Sources */,
 				ACA75AB219ED1C0E00E8FC3E /* flowdetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
